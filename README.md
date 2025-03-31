@@ -1,7 +1,7 @@
 ### Pour installer cette api: téléchargez le zip du code, puis lancez composer install, et importez dans phpmyadmin, après avoir créé la base de données mediatek86, le backup_mediatek86.sql
 
 
-Cette API permet de réaliser des opérations sur la BDD Mediatek86 qui doit être préalablement créée puis remplie avec le script backup_mediatek86.sql.<br />
+Cette API permet de réaliser des opérations sur la BDD Mediatek86 qui doit être préalablement créée puis remplie avec le script **mediatek86.sql**<br />
 L'API actuelle fonctonne avec une BDD MySQL en localhost, port 3306, en accès "root" sans pwd, juste pour des tests en local.
 Pour une mise en production, il faudra modifier les paramètres du fichier AccessBDD.php et sécuriser la BDD avec un user.
 Pour les tests en local, copier l'API dans le dossier rest_mediatekdocuments (dans le dossier www de wamp ou autre serveur Apache).
